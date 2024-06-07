@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notif</title>
+    <link rel="shortcut icon" href="./Images/success_7518748.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./Styles/start.css">
+    <link rel="stylesheet" href="./Styles/style.css">
+</head>
+<body>
+    <div class="notif"></div>
+    <div class="form">
+        <h1>Notif JS</h1>
+        <label for="te">Text</label><input type="text" id="te" value="hello">
+        <label for="co">Color</label><select id="co">
+            <option value="primary">Primary</option>
+            <option value="info">info</option>
+            <option value="success">Success</option>
+            <option value="warning">Warning</option>
+            <option value="danger">Danger</option>
+            <option value="dark">Dark</option>
+            <option value="secondary">Secondary</option>
+            <option value="light">Light</option>
+            <option value="white">White</option>
+        </select>
+        <label for="ti">Time</label><input type="number" id="ti" value="3">
+        <button onclick="fire()">Go Notif...</button>
+    </div>
+    <script src="./notif.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

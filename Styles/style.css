@@ -1,0 +1,60 @@
+body {
+    font-family: Ubuntu, sans-serif;
+    background-color: #ffffff;
+    background-image: url("../Images/pattern.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 330px;
+    background: #ededed;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.form * {
+    margin-bottom: 5px;
+}
+.form button {
+    margin-top: 10px;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background: #6119e6;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.form button:hover {
+    background: #7530f7;
+}
+.form input, .form select {
+    font-size: 14px;
+    padding: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    cursor: text;
+}
+.form input:hover, select:hover {
+    border: 1px solid gray;
+}
+.form label {
+    font-size: 14px;
+    font-weight: 500;
+}
+.form h1 {
+    text-align: center; 
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
