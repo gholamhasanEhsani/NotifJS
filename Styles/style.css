@@ -58,3 +58,7 @@ body {
     font-size: 36px;
     margin-bottom: 25px;
 }
+.form code {
+    color: crimson;
+    font-family: monospace;
+}
