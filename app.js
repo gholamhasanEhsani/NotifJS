@@ -18,3 +18,7 @@ function fire() {
         code.innerText = `Notif("${t}", "${c}", ${i});`
     }
 }
+function copy(){
+    Navigator.clipboard.writeText(code.innerText);
+    Notif('Text Copied!', 'success');
+}
