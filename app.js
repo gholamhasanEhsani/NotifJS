@@ -19,6 +19,6 @@ function fire() {
     }
 }
 function copy(){
-    Navigator.clipboard.writeText(code.innerText);
+    navigator.clipboard.writeText(code.innerText);
     Notif('Text Copied!', 'success');
 }
