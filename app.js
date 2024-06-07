@@ -1,5 +1,5 @@
 function fire() {
-    document.onload = () => {
+    document.getElementsByClassName("script")[1].onload = () => {
         console.log("X");
         const te = document.querySelector('#te');
         const co = document.querySelector('#co');
