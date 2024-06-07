@@ -1,3 +1,4 @@
+console.log("X");
 const te = document.querySelector('#te');
 const co = document.querySelector('#co');
 const ti = document.querySelector('#ti');
