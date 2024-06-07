@@ -20,4 +20,6 @@ Notif(Text, Color, Time)
 | Color    | Background color of Notif (required)                         | Primary | "primary", "info", "success", "warning", "danger", "dark", "secondary", "light", "white" | String |
 | Time     | Duration for which Notif is displayed in seconds (required)  | 3       | 1 ≤ Time ≤ 120                                                                           | Number |
 
-you can visit examples in [this link](https://gholamhasanehsani.github.io/NotifJS)
+you can visit examples in [this link][def]
+
+[def]: https://gholamhasanehsani.github.io/NotifJS
