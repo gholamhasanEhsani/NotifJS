@@ -1,6 +1,6 @@
 # NotifJS
 
-Make a beautiful toast with NotifJS
+Make a beautiful toast with NotifJS...
 
 you can add this [file](https://github.com/gholamhasanEhsani/NotifJS/releases/download/main/notif.js) to your project and then put the following code at the end of your ```<head>``` tag.
 
