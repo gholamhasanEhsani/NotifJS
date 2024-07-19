@@ -8,10 +8,10 @@ you can add this [file](https://github.com/gholamhasanEhsani/NotifJS/releases/do
 <script type="text/javascript" src="./notif.js"></script>
 ```
 
-And then just use Notif function in your Javascript code
+And just use the Notif function in your JavaScript code like the example below
 
 ```js
-Notif(Text, Color, Time)
+Notif(Text, Color, Time);
 ```
 
 | Argument | Description                                                  | Default | Values                                                                                   | Type   |
