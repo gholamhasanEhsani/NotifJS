@@ -2,10 +2,10 @@
 
 Make a beautiful toast with NotifJS
 
-you can add this code in the end of your ```<head>```
+you can add this [file](https://github.com/gholamhasanEhsani/NotifJS/releases/download/main/notif.js) to your project and then put the following code at the end of your ```head``` tag.
 
 ```html
-<script type="text/javascript" src="https://bitly.cx/notifjs"></script>
+<script type="text/javascript" src="./notif.js"></script>
 ```
 
 And then just use Notif function in your Javascript code
